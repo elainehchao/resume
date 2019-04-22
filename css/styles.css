@@ -1,0 +1,35 @@
+.container {
+    height: 100%;
+    margin: 0;
+    font-family: helvetica;
+}
+
+#leftContainer {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background: url("../img/apple-business-camera-equipment-2120021.jpg") no-repeat;
+    background-size: auto 100%;
+    opacity: 0.8;
+}
+
+#rightContainer {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 10px;
+}
+
+#header {
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    left: 15%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.headerSub {
+    font-size: 18px;
+    margin: 5px;
+}
