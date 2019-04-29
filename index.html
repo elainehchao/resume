@@ -5,6 +5,9 @@
     <title>Elaine Chao, Software Engineer</title>
     <link type="text/css" rel="stylesheet" href="css/styles.css">
     <link type="text/css" rel="stylesheet" href="css/normalize.css">
+
+    <!-- jQuery UI CSS -->
+    <link href="js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -15,7 +18,7 @@
                 <p class="headerSub">Software Engineer</p>
                 <p class="headerSub">San Diego</p>
             </div>
-        </div>
+        </div> <!-- leftContainer -->
 
         <div id="rightContainer">
             <h2>Intro</h2>
@@ -24,14 +27,27 @@
 
             <h2>Skills and Tools</h2>
 
-            <h3>Languages</h3>
+            <div id="accordion">
+                <h3>Languages</h3>
+                <div>
+                    <p>Some test text</p>
+                </div>
 
-            <h3>Platforms</h3>
+                <h3>Platforms</h3>
+                <div>
+                    <p>Some test text</p>
+                </div>
 
-            <h3>Development & Testing Tools</h3>
+                <h3>Development & Testing Tools</h3>
+                <div>
+                    <p>Some test text</p>
+                </div>
 
-            <h3>Organizational Tools</h3>
-
+                <h3>Organizational Tools</h3>
+                <div>
+                    <p>Some test text</p>
+                </div>
+            </div> <!-- #accordion -->
 
             <h2>Work Experience</h2>
             <div id="abaltaTechLead">
@@ -50,7 +66,8 @@
                     <li>Automated SDK packaging and release process components including: running unit tests, integration tests, static code analysis, and dynamic code analysis using Jenkins for continuous integration</li>
                     <li>Maintained 90% unit test code coverage and 80% integration test code coverage</li>
                 </ul>
-            </div>
+            </div> <!-- abaltaTechLead -->
+
 
             <h2>Education</h2>
             <div id="ucsd">
@@ -64,15 +81,28 @@
                     <p class="mainTitle" id="schoolLocation">San Diego, CA</p>
                     <p class="subTitle" id="gpa">GPA: 3.63</p>
                 </div>
-            </div>
+            </div> <!-- ucsd -->
 
-            <div id="personalProjContainer"></div>
-            <h2>Personal Projects</h2>
-            <h4><a class="projectLink" href="https://elainehchao.github.io/resume/" target="_blank">Online Resume</a></h4>
-            <p>Web based resume project created to help learn basic html, css, and website design. The site was built from scratch using Photoshop for wireframing and github for web hosting.</p>
-        </div>
-    </div>
-    </div>
+            <div id="personalProjContainer">
+                <h2>Personal Projects</h2>
+                <h4><a class="projectLink" href="https://elainehchao.github.io/resume/" target="_blank">Online Resume</a></h4>
+                <p>Web based resume project created to help learn basic website design, HTML, CSS, and Javascript. The site was built from scratch using HTML5, CSS, and JQuery. Photoshop was used for wireframing.</p>
+            </div> <!-- personalProjContainer -->
+        </div> <!-- rightContainer -->
+    </div> <!-- container -->
+
+    <!-- Load the CDN first -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-3.4.0.min.js"><\/script>');
+    </script>
+
+    <!-- jQuery UI -->
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
