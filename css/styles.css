@@ -78,3 +78,31 @@ body {
 .schoolRight {
     float: right;
 }
+
+.ui-state-default {
+    border: none;
+    background: none;
+    color: #000;
+}
+
+.ui-accordion {
+    border: none;
+    background: none;
+    color: #000;
+}
+
+.ui-accordion-header:focus {
+    outline: none;
+}
+
+.ui-accordion,
+.ui-widget-content {
+    border: none;
+    background: none;
+    color: #000;
+}
+
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+    background-image: url("../js/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png");
+}
