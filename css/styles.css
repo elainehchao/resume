@@ -13,10 +13,14 @@ body {
     position: fixed;
     width: 42%;
     height: 100%;
-    background: url("../img/apple-business-camera-equipment-2120021.jpg") no-repeat;
-    background-size: 100% 100%;
-    opacity: 0.8;
     font-family: helvetica;
+}
+
+#backgroundimg {
+    background: url("../img/beverage-coffee-desk-877695-2.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    opacity: 0.8;
 }
 
 #rightContainer {
@@ -26,15 +30,25 @@ body {
     overflow: auto;
     padding-right: 50px;
     font-family: calibri;
+    font-size: 15px;
 }
 
 #header {
     position: absolute;
-    top: 30%;
     text-align: left;
     left: 15%;
-    color: #fff;
-    font-size: 25px;
+    color: lightpink;
+    font-size: 20px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .headerSub {
@@ -112,4 +126,12 @@ body {
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
     background-image: url("../js/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png");
+}
+
+.actualSkill {
+    color: lightpink;
+}
+
+.languageName {
+    width: 100px;
 }

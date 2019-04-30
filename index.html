@@ -7,50 +7,116 @@
     <!-- jQuery UI CSS -->
     <link href="js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
 
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
     <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <div class="container">
         <div id="leftContainer">
-            <div id="header">
-                <h1>Hi, I'm<br>Elaine Chao</h1>
-                <p class="headerSub">Software Engineer</p>
-                <p class="headerSub">San Diego</p>
+            <div id="backgroundimg">
+                <div id="header">
+                    <h1>Hi, I'm<br>Elaine Chao</h1>
+                    <p class="headerSub">Software Engineer</p>
+                    <p class="headerSub">San Diego</p>
+                </div>
             </div>
         </div> <!-- leftContainer -->
 
         <div id="rightContainer">
             <h2>Intro</h2>
+            <hr>
             <p>Highly motivated software engineer with 3 years of industry experience. Practiced in the Agile methodology, leading a software team, defining technical requirements, and interfacing with customers. Team player with hands on experience implementing software systems.</p>
 
 
             <h2>Skills and Tools</h2>
-
+            <hr>
             <div id="accordion">
                 <h3>Languages</h3>
                 <div>
-                    <p>Some test text</p>
+                    <table>
+                        <tr>
+                            <td class="languageName">Java</td>
+                            <td><span class="totalSkill"><span class="actualSkill">&bull; &bull; &bull; &bull;</span> &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">Python</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull; &bull;</span> &bull; &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">C++</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull;</span> &bull; &bull; &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">HTML</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull;</span> &bull; &bull; &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">CSS</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull;</span> &bull; &bull; &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">Javascript</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; </span>&bull; &bull; &bull; &bull; &bull;</span></td>
+                        </tr>
+                    </table>
                 </div>
 
                 <h3>Platforms</h3>
                 <div>
-                    <p>Some test text</p>
+                    <table>
+                        <tr>
+                            <td class="languageName">Linux</td>
+                            <td><span class="totalSkill"><span class="actualSkill">&bull; &bull; &bull; &bull;</span> &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">OSX</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull; &bull; &bull;</span> &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">Windows</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull; &bull;</span> &bull; &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">Raspberry Pi</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull;</span> &bull; &bull; &bull; &bull;</span></td>
+                        </tr>
+                        <tr>
+                            <td class="languageName">iOS</td>
+                            <td><span class="totalSkill"><span class="totalSkill"><span class="actualSkill">&bull; &bull;</span> &bull; &bull; &bull; &bull;</span></td>
+                        </tr>
+                    </table>
                 </div>
 
                 <h3>Development & Testing Tools</h3>
                 <div>
-                    <p>Some test text</p>
+                    <ul>
+                        <li>IntelliJ</li>
+                        <li>Junit</li>
+                        <li>Mockito</li>
+                        <li>Maven</li>
+                        <li>Git</li>
+                        <li>CLion</li>
+                        <li>Eclipse</li>
+                        <li>CMake</li>
+                        <li>Jenkins</li>
+                        <li>Google Test</li>
+                    </ul>
                 </div>
 
                 <h3>Organizational Tools</h3>
                 <div>
-                    <p>Some test text</p>
+                    <ul>
+                        <li>Jira</li>
+                        <li>AgileCraft</li>
+                        <li>Confluence</li>
+                        <li>VersionOne</li>
+                    </ul>
                 </div>
             </div> <!-- #accordion -->
 
             <h2>Work Experience</h2>
+            <hr>
             <div id="abaltaTechLead">
                 <div class="experienceLeft">
                     <p class="mainTitle" id="company">Abalta Technologies</p>
@@ -85,6 +151,7 @@
 
 
             <h2>Education</h2>
+            <hr>
             <div id="ucsd" class="education">
                 <div class="schoolLeft">
                     <p class="mainTitle" id="ucsdSchool">University of California, San Diego</p>
@@ -112,10 +179,14 @@
 
             <div id="personalProjContainer">
                 <h2>Personal Projects</h2>
+                <hr>
                 <h4><a class="projectLink" href="https://elainehchao.github.io/resume/" target="_blank">Online Resume</a></h4>
                 <p>Web based resume project created to help learn basic website design, HTML, CSS, and Javascript. The site was built from scratch using HTML5, CSS, and JQuery. Photoshop was used for wireframing.</p>
             </div> <!-- personalProjContainer -->
+
+            <p>Download PDF</p>
         </div> <!-- rightContainer -->
+
     </div> <!-- container -->
 
     <!-- Load the CDN first -->

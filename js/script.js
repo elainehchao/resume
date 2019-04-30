@@ -1,7 +1,8 @@
 $(function () {
     $("#accordion").accordion({
         collapsible: true,
-        active: false
+        active: 0,
+        heightStyle: "content"
     });
 
     $("#accordion").accordion("option", "icons", {
