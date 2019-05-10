@@ -36,6 +36,7 @@ body {
 #header {
     position: absolute;
     text-align: left;
+    /*    top: 30%;*/
     left: 15%;
     color: lightpink;
     font-size: 20px;
@@ -134,4 +135,8 @@ h1 {
 
 .languageName {
     width: 100px;
+}
+
+ul {
+    margin: 0px;
 }
